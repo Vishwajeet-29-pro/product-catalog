@@ -32,6 +32,7 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	testImplementation("it.ozimov:embedded-redis:0.7.3")
 }
 
 tasks.withType<Test> {
